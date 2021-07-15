@@ -1,4 +1,4 @@
 # demo
 
 
-magento deployment use jenkins
+magento deployment use jenkin
