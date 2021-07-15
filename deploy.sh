@@ -16,3 +16,4 @@ chmod -R 777 pub/
 chmod -R 777 vendor/
 chmod -R 777 generated/
 echo "completed"
+
