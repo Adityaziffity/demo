@@ -10,7 +10,7 @@ pipeline {
         steps {
             sh'''
                 echo "this is  deployment area"
-                ssh -i /var/jenkins_home/.ssh/id_rsa -o "StrictHostKeyChecking=no" ubuntu@3.109.11.112 'sudo bash /home/ubuntu/deploy.sh'
+                ssh -i /var/jenkins_home/.ssh/id_rsa -o "StrictHostKeyChecking=no" ubuntu@13.234.238.226 'sudo bash /home/ubuntu/deploy.sh'
             '''
         }
       }
@@ -28,7 +28,7 @@ pipeline {
             steps {
                 sh'''
                     echo "this is  deployment area"
-                    ssh -i /var/jenkins_home/.ssh/id_rsa -o "StrictHostKeyChecking=no" ubuntu@3.109.11.112 'sudo bash /home/ubuntu/deploy.sh'
+                    ssh -i /var/jenkins_home/.ssh/id_rsa -o "StrictHostKeyChecking=no" ubuntu@13.234.17.0 'sudo bash /home/ubuntu/deploy.sh'
                 '''
         }
       }
