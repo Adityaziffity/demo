@@ -1,3 +1,5 @@
+rm -rf /var/www/html/magento
+cd /var/www/html/
 git clone https://github.com/Adityaziffity/demo.git demo
 mv demo/magento .
 rm -rf demo
@@ -16,5 +18,3 @@ chmod -R 777 pub/
 chmod -R 777 vendor/
 chmod -R 777 generated/
 echo "completed"
-
-
